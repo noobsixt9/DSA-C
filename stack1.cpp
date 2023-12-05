@@ -59,7 +59,8 @@ int main()
 	
 	do
 	{
-	printf("Enter choice: ");
+	printf("\n1. PUSH\n2. POP\n3. PEEK\n4. DISPLAY");
+	printf("\nEnter choice: ");
 	scanf("%d",&ch);
 		switch(ch)
 		{
@@ -72,6 +73,8 @@ int main()
 			case 3:
 				peek();
 				break;
+			case 4:
+				displaystck();
 			default:
 				printf("wrong choice");
 		}
